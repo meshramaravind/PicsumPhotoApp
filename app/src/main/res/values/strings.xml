@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PicsumPhotoApp</string>
+    <string name="text_retry">Retry</string>
+    <string name="text_content_description_splash_logo">Splash Logo</string>
+    <string name="text_download">Download</string>
+    <string name="text_share">Share</string>
+
+    <string name="something_went_wrong">Something went wrong.</string>
+    <string name="download_image">Do you want to download the image?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="ok">Ok</string>
+    <string name="rationale">Storage permission is required to save image to phone. Allow permission?</string>
+    <string name="image_download_success">Image Downloaded Successfully</string>
+    <string name="oops_no_data_found">Oops! No Data Found.</string>
+</resources>

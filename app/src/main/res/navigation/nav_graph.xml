@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/photosFragment">
+
+    <fragment
+        android:id="@+id/photosFragment"
+        android:name="com.arvind.picsumphotoapp.view.photos.PhotosFragment"
+        android:label=""
+        tools:layout="@layout/fragment_photos">
+
+        <action
+            android:id="@+id/action_photosFragment_to_photosDetailsFragment"
+            app:destination="@id/photoDetailsFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/photoDetailsFragment"
+        android:name="com.arvind.picsumphotoapp.view.details.PhotosDetailsFragment"
+        android:label="{author}"
+        tools:layout="@layout/fragment_photos_details">
+
+        <argument
+            android:name="imageListModel"
+            app:argType="com.arvind.picsumphotoapp.data.model.ImageListModel" />
+
+        <argument
+            android:name="author"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>
