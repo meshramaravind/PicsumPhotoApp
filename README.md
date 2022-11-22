@@ -28,7 +28,7 @@ Clean Architecture - Applying Clean Architecture and Solid Principles to build a
 
 - [Retrofit)](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.Retrofit is a REST client for Java/ Kotlin and Android by Square inc under Apache 2.0 license. Its a simple network library that is used for network transactions. By using this library we can seamlessly capture JSON response from web service/web API.
 
-- [Kotlin Coroutine](https://developer.android.com/kotlin) - A concurrency design pattern that you can use on Android to simplify code that executes asynchronously.
+- [Kotlin Coroutine](https://developer.android.com/kotlin/coroutines) - A concurrency design pattern that you can use on Android to simplify code that executes asynchronously.
 
 - [Lifecycle](https://developer.android.com/topic/libraries/architecture/lifecycle) - Lifecycle-aware components perform actions in response to a change in the lifecycle status of another component, such as activities and fragments. These components help you produce better-organized, and often lighter-weight code, that is easier to maintain.
 
